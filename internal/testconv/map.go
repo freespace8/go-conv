@@ -6,8 +6,8 @@ package testconv
 // 	"strconv"
 // 	"testing"
 //
-// 	"github.com/cstockton/go-conv/internal/generated"
-// 	"github.com/cstockton/go-conv/internal/refutil"
+// 	"github.com/freespace8/go-conv/internal/generated"
+// 	"github.com/freespace8/go-conv/internal/refutil"
 // )
 //
 // func RunMapTests(t *testing.T, fn func(into, from interface{}) error) {

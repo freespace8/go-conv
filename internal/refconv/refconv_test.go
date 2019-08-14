@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cstockton/go-conv/internal/testconv"
+	"github.com/freespace8/go-conv/internal/testconv"
 )
 
 // Test converter.

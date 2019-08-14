@@ -3,7 +3,7 @@ package conv
 import (
 	"testing"
 
-	"github.com/cstockton/go-conv/internal/testconv"
+	"github.com/freespace8/go-conv/internal/testconv"
 )
 
 func TestConv(t *testing.T) {

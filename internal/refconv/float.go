@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"strconv"
 
-	"github.com/cstockton/go-conv/internal/refutil"
+	"github.com/freespace8/go-conv/internal/refutil"
 )
 
 func (c Conv) convStrToFloat64(v string) (float64, bool) {

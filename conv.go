@@ -4,7 +4,7 @@ package conv
 import (
 	"time"
 
-	"github.com/cstockton/go-conv/internal/refconv"
+	"github.com/freespace8/go-conv/internal/refconv"
 )
 
 var converter = refconv.Conv{}
@@ -59,10 +59,26 @@ func Float64(from interface{}) (float64, error) {
 	return converter.Float64(from)
 }
 
+func TryFloat64(from interface{}, def float64) float64 {
+	v, err := converter.Float64(from)
+	if err != nil {
+		v = def
+	}
+	return v
+}
+
 // Int will convert the given value to a int, returns the default value of 0 if
 // a conversion can not be made.
 func Int(from interface{}) (int, error) {
 	return converter.Int(from)
+}
+
+func TryInt(from interface{}, def int) int {
+	v, err := converter.Int(from)
+	if err != nil {
+		v = def
+	}
+	return v
 }
 
 // Int8 will convert the given value to a int8, returns the default value of 0

@@ -5,7 +5,7 @@ import (
 	"math"
 	"time"
 
-	conv "github.com/cstockton/go-conv"
+	conv "github.com/freespace8/go-conv"
 )
 
 // All conversion functions accept any type of value for conversion, if unable

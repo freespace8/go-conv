@@ -1,14 +1,14 @@
 # Go Package: conv
 
-  [![GoDoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](http://godoc.org/github.com/cstockton/go-conv)
-  [![Go Report Card](https://goreportcard.com/badge/github.com/cstockton/go-conv?style=flat-square)](https://goreportcard.com/report/github.com/cstockton/go-conv)
-  [![Coverage Status](https://img.shields.io/codecov/c/github/cstockton/go-conv/master.svg?style=flat-square)](https://codecov.io/github/cstockton/go-conv?branch=master)
-  [![Build Status](http://img.shields.io/travis/cstockton/go-conv.svg?style=flat-square)](https://travis-ci.org/cstockton/go-conv)
-  [![License](http://img.shields.io/badge/license-mit-blue.svg?style=flat-square)](https://raw.githubusercontent.com/cstockton/go-conv/master/LICENSE)
+  [![GoDoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](http://godoc.org/github.com/freespace8/go-conv)
+  [![Go Report Card](https://goreportcard.com/badge/github.com/freespace8/go-conv?style=flat-square)](https://goreportcard.com/report/github.com/freespace8/go-conv)
+  [![Coverage Status](https://img.shields.io/codecov/c/github/freespace8/go-conv/master.svg?style=flat-square)](https://codecov.io/github/freespace8/go-conv?branch=master)
+  [![Build Status](http://img.shields.io/travis/freespace8/go-conv.svg?style=flat-square)](https://travis-ci.org/freespace8/go-conv)
+  [![License](http://img.shields.io/badge/license-mit-blue.svg?style=flat-square)](https://raw.githubusercontent.com/freespace8/go-conv/master/LICENSE)
 
   > Get:
   > ```bash
-  > go get -u github.com/cstockton/go-conv
+  > go get -u github.com/freespace8/go-conv
   > ```
   >
   > Example:
@@ -38,7 +38,7 @@
 
 ## Intro
 
-**Notice:** If you begin getting compilation errors use the v1 import path `gopkg.in/cstockton/go-conv.v1` for an immediate fix and to future-proof.
+**Notice:** If you begin getting compilation errors use the v1 import path `gopkg.in/freespace8/go-conv.v1` for an immediate fix and to future-proof.
 
 Package conv provides fast and intuitive conversions across Go types. This library uses reflection to be robust but will bypass it for common conversions, for example string conversion to any type will never use reflection. All functions are safe for concurrent use by multiple Goroutines.
 
@@ -419,6 +419,6 @@ with any pull requests.
   Feel free to report bugs and submit pull requests.
 
   * bugs:
-    <https://github.com/cstockton/go-conv/issues>
+    <https://github.com/freespace8/go-conv/issues>
   * patches:
-    <https://github.com/cstockton/go-conv/pulls>
+    <https://github.com/freespace8/go-conv/pulls>

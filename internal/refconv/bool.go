@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/cstockton/go-conv/internal/refutil"
+	"github.com/freespace8/go-conv/internal/refutil"
 )
 
 type boolConverter interface {

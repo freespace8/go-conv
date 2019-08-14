@@ -8,7 +8,7 @@ import (
 	"math/cmplx"
 	"reflect"
 
-	"github.com/cstockton/go-conv/internal/refutil"
+	"github.com/freespace8/go-conv/internal/refutil"
 )
 
 type stringConverter interface {
