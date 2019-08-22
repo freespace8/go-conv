@@ -41,6 +41,11 @@ func String(from interface{}) (string, error) {
 	return converter.String(from)
 }
 
+func TryString(from interface{}) string {
+	str, _ := converter.String(from)
+	return str
+}
+
 // Time will convert the given value to a time.Time, returns the empty struct
 // time.Time{} if a conversion can not be made.
 func Time(from interface{}) (time.Time, error) {
